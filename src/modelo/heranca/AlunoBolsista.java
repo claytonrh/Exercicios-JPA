@@ -4,7 +4,7 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue("AL") // esse ser· o "tipo" dessa classe de aluno "AL = Aluno Normal"...isso È necess·rio na estratÈgia de heranÁa SingleTable
+@DiscriminatorValue("AB") // esse ser√° o "tipo" dessa classe de aluno "AB = Aluno Bolsista"...isso √© necess√°rio na estrat√©gia de heran√ßa SingleTable
 public class AlunoBolsista extends Aluno{
 
 	private double valorBolsa;
